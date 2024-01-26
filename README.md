@@ -1,1 +1,2 @@
 # PaginaLoginMAUI
+ É um página de login simples em um aplicativo .NET MAUI. A página contêm dois campos de entrada de texto para o nome de usuário e senha, juntamente com um botão de login. Quando o utilizador clicar no botão de login, uma mensagem de "Login bem-sucedido" deve ser exibida em uma janela de alerta caso os dois campos estejem preenchido e uma mensagem "Os campos devem ser preenchidos", caso não estiverem preenchidos.
