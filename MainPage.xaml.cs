@@ -8,15 +8,15 @@
         {
             InitializeComponent();
         }
-        private void EntrarBtn_Clicked(object sender, EventArgs e)
+        private async void EntrarBtn_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(UtilizadorTxt.Text) || string.IsNullOrEmpty(PalavraPasseTxt.Text))
             {
-                DisplayAlert("Erro", "Os campos devem ser preenchidos!", "Ok");
+               await DisplayAlert("Erro", "Os campos devem ser preenchidos!", "Ok");
             }
             else
             {
-                DisplayAlert("Mensagem", "Login Bem Sucedido!", "Ok");
+               await DisplayAlert("Mensagem", "Login Bem Sucedido!", "Ok");
                 UtilizadorTxt.Text=string.Empty;
                 PalavraPasseTxt.Text=string.Empty;
             }

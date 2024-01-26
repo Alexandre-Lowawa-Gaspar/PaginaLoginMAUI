@@ -4,7 +4,7 @@
              x:Class="PaginaLoginMAUI.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <StackLayout
             Padding="30,0"
             Spacing="25"
             HorizontalOptions="Center"
@@ -52,7 +52,7 @@
                 FontAttributes="Bold"
                 WidthRequest="500"
                 HorizontalOptions="Start"/>
-        </VerticalStackLayout>
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
